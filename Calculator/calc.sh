@@ -8,7 +8,7 @@ echo "1.Addition"
 echo "2.Subtraction"
 echo "3.Multiplication"
 echo "4.Divition"
-echo "eXIT"
+echo "Exit"
 read n 
 case $n in
 	1)result=$(( $a + $b))
