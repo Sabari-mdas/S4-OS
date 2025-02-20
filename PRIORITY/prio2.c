@@ -90,5 +90,17 @@ void main()
 
 
     printf("\nAverage Turnaround Time: %f\n", att/n);
-    printf("Average Waiting Time: %f", awt/n);
+    
+    printf("Average Waiting Time: %f\n", awt/n);
+    
+    printf("Gantt chart: \n");
+    printf("---------------------------------------------------------------------------\n");
+    for(i=0;i<n;i++)
+    {printf("|\tP%d\t|",pid[i]);
+    }
+    printf("\n");
+    printf("---------------------------------------------------------------------------\n");
+    for(i=0;i<n;i++)
+    {printf("\t\t%d",ct[i]);}
+    
 }
