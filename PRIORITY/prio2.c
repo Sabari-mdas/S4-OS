@@ -89,6 +89,6 @@ void main()
     }
 
 
-    printf("\nAverage Turnaround Time: %f", att/n);
+    printf("\nAverage Turnaround Time: %f\n", att/n);
     printf("Average Waiting Time: %f", awt/n);
 }
